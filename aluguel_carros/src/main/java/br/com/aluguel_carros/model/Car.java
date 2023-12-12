@@ -22,6 +22,10 @@ public class Car {
   @Column(nullable = false)
   private double pricePerDay;
 
+  public Car() {
+    
+  }
+
   public long getId() {
     return id;
   }
